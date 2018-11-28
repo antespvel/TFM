@@ -26,16 +26,6 @@ atexit.register(exit_handler)
 with open("/home/anton/Escritorio/FIN/EVALUACION/rankingUnigramas.txt", encoding='utf-8') as f:
     queries = [w.split(',')[0] for w in f]
 
-    remove = ['éxtasis', 'extasis', 'ketamina', 'marihuana', 'mdma', 'codeína', 'anfetamina', 'droga',
-              'marihuana.', 'lsd', 'nicotina', 'cocaína', 'cocaina', 'metanfetamina', 'clonazepam',
-              'alcohol', 'cannabis', 'delirio', 'mariguana', 'placer', 'drogas', 'hachís', 'dolor',
-              'cafeína', 'supositorios', 'adrenalina', 'antidepresivos', 'viagra', 'locura', 'cigarrillo',
-              'sobredosis', 'pomada', 'frenesí', 'metanfetaminas', 'amoxicilina', 'cigarro', 'abstinencia',
-              'orgasmo', 'esteroides']
-
-    for w in remove:
-        queries.remove(w)
-
 print(queries)
 tuits = []
 
