@@ -19,3 +19,8 @@
 - rerankingW2V.py: incluye la aplicación de las tecnicas de word embeddings mediante el uso de Word2Vec, donde se comparan los términos resultantes de la aplicación del relevance con los términos semilla para mejorar los resutados finales.
 - searchTwitter.py: realiza la captura de tuits de acuerdo a los términos clave añadidos en la query.
 - utiles.py: realiza el filtro de los bigramas y trigramas que contienen algún unigrama.
+
+## Word Embeddings
+
+En el siguiente enlace se puede obtener el modelo entranado necesario para la ejecución del "reranking.py", sin el cual no se podrá realizar la comparación con las semillas iniciales.
+[Modelo entranado Word2Vec](https://mega.nz/#!6N1n0IjD!ZVFx_lOU5TZ9cW28pU2_ko33m_uOhMqwFxh9_B4hci4)
