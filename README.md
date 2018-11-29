@@ -1,4 +1,4 @@
-# Expansión de consultas para la captura de mensajes en Twitter relacionados con las drogas
+# Expansión de consultas para la captura de mensajes en Twitter relacionados con el consumo de drogas
 
 ## Contenido del repositorio
 
